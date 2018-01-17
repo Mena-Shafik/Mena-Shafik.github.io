@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   <head>
+      <title>Assignment 2</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <style>
+         #header{
+            background-color: orangered;
+            border: 2px solid black;
+            padding: 20px;
+            padding-top: 50px;
+            margin: 0px;
+            border-radius: 5px;
+            position: absolute;
+            width: 800px;
+            top: 20px;
+            left:20px;
+         }
+         body{
+            background-color: grey;
+         }
+         #nav{
+            position: fixed;
+            z-index: 100;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            background-color: black;
+            width: 800px;
+            left: 20px;
+            top: 20px;
+            height:25px;
+            border: 2px solid black;
+            padding-left: 20px;
+            padding-right: 20px;
+            opacity: 0.7;
+         }
+         .navlink{
+            display: inline;
+         }
+         a{
+            font-family: sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 10px;
+            padding-top: 0px;
+            border-right: 1px solid grey;
+            color: white;
+         }
+         #footer{
+            background-color:black;
+            color:white;
+            clear:both;
+            width:100%;
+            position:absolute;
+            bottom: 0;
+            text-align:center;
+            padding:5px;
+         }
+         #content{
+            position: absolute;
+            width: 800px;
+            top:340px;
+            left:20px;  
+         }
+         #box{
+            background-color: red;
+            border: 2px solid black;
+            padding: 20px;
+            padding-top: 20px;
+            padding-left: 40px;
+            margin: 0px;
+            border-radius: 5px;
+            border-top-left-radius:0px;
+            border-top-right-radius:0px;
+            position: absolute;
+            width: 780px;
+            top: 200px;
+            left:20px;
+         }
+         #imagelist{
+            background-color: green;
+            color: lightblue;
+            padding: 20px;
+            width: 800px;
+            height:200px;
+            position:absolute;
+            top:  20px;
+            left: 2px;
+            overflow: scroll;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="header">
+         <h1>Assignment 2</h1>
+         <h2 class="red" id="author">By Mena Shafik</h2>
+      </div>
+      <ul id="nav">
+         <li class="navlink"><a href="Assignment1.html">Assignment 1</a></li>
+         <li class="navlink"><a href="http://google.com">google</a></li>
+         <li class="navlink"><a href="http://youtube.com">youtube</a></li>
+         <li class="navlink"><a href="http://engadget.com">engadget</a></li>
+         <li class="navlink"><a href="https://www.sheridancollege.ca">Sheridan Home Page</a></li>
+         <li class="navlink"><a href="http://mobile.sheridanc.on.ca/~scottsam/info16206_s15/">Class Plan</a></li>
+      </ul>
+
+      <ol id="box">
+         <li> Program of Study: Mobile Computing</li>
+         <li>I have worked with xml or touched on it before but other than that this is pretty much my first time</li>
+         <li>Graduated from Sheridan in Computer Engineering Technology in 2011</li>
+         <li>Types of languages: Java, C, Python, SQL, PSQL. I have worked at other schools as IT support</li>
+         <li>I'm very excited since I love to code but also scared since this class</li>
+         <li>seems to use different language at the same time and not sure what to expect. Of course I hope to do well.</li>
+         <li>I like drawing and building model kits.</li>
+      </ol>
+      <div id="content">
+         <p id="imagelist"> 
+            <img width = "300" height ="240" src="GoldenSunMap.jpg" alt="My banner" align="left"> 
+            <img width = "300" height ="240" src="hexagon-matrix-optic-v161-john-brooks.jpg" alt="My banner" align="left">
+            <img width = "300" src="GoldenSunMap.jpg" alt="My banner" align="left"> 
+
+
+      </div>
+
+      <div id="footer">
+         Copyright © Cutlets.com
+      </div>
+   </body>
+</html>

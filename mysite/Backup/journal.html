@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Forbidden Works</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/AS3css.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/login.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <style>
+            body
+            {
+                background-image: url('images/background.jpg');
+            }
+            .content
+            {
+                width: 100%;
+                color: darkgoldenrod;
+                text-align: center;
+                font-size: 35px;
+            }
+
+            #box{
+                list-style-type: none;
+                background-color: #990000;
+                color: #f9bd13;
+                font-weight: bold;
+                font-size:90%;
+                font-family:'"Comic Sans MS", cursive, sans-serif';
+                border: 2px solid black;
+                padding: 20px;
+                padding-top: 20px;
+                margin: auto;
+                border-radius: 5px;
+                width: 62%;
+                top: 200px;
+                left:20px;
+            }
+            #box2{
+                list-style-type: none;
+                background-color: #1F5E9E;
+                color: #f9bd13;
+                font-weight: bold;
+                font-size:90%;
+                font-family:'Ek Mukta';
+                border: 2px solid black;
+                padding: 20px;
+                padding-top: 20px;
+                margin: auto;
+                border-radius: 5px;
+                width: 62%;
+                top: 200px;
+                left:20px;
+            } 
+            hr
+            {
+                margin-top: 0px;   
+            }
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand" href="#"> ^_^ </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Assignments
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="assignment 1.html">Assignment 1</a></li>
+                                <li><a href="assignment 2.html">Assignment 2</a></li>
+                                <li><a href="Assignment 3">Assignment 3</a></li>
+                                <li><a href="Assignment 3/slotmachine">Assignment 4</a></li> 
+                                <li><a href="Assignment5">Assignment 5</a></li>  
+                                <li><a href="#">Assignment 6</a></li>  
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Web Links
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.sheridancollege.ca/">Sheridan Home Page</a></li>
+                                <li><a href="http://mobile.sheridanc.on.ca/~scottsam/info16206_s15/">Class Plan</a></li>        
+                            </ul>
+                        </li>
+                        <li><a href="pictures.html">Pictures</a></li> 
+                        <li class="active"><a href="journal.html">Journal</a></li> 
+                        <li><a href="about.html">About</a></li> 
+
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a  href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                <div class="modal-dialog">
+                                    <div class="loginmodal-container">
+                                        <h1>Login to Your Account</h1><br>
+                                        <form>
+                                            <input type="text" name="user" placeholder="Username">
+                                            <input type="password" name="pass" placeholder="Password">
+                                            <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                                        </form>
+
+                                        <div class="login-help">
+                                            <a href="#">Register</a> - <a href="#">Forgot Password</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="wrap">
+            <div id="main">
+                <div class='content'>
+                    Welcome to my first web page using Bootstrap.
+                </div>
+                <hr>
+                <div class="panel-group" id="accordion">
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Wednesday January 13,2016</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>Added Collapse to make it look nicer</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Monday August 24,2015</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Hello to bootstrap ladies and gentlemen"</p>
+                                <p>What I have have learned is that bootstrap is a pre made css for the most 
+                                    part and you just have to name your html based on what you want it to be</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Monday May 29,2015</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Actually made my splash page My home page and not another page silly me."</p>
+                                <p>All future logs will be set up as weekly and not by day as more days keep getting add to save space"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Monday May 27,2015</a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Finally got rid of the white box curse you "z index -1"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Monday May 26,2015</a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Added title header for each pages.</p>
+                                <p>Change color scheme to make it 20% cooler.</p> 
+                                <p>Still keep getting the white box in the drop down menu.</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Monday May 25,2015</a>
+                            </h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse">
+                            <div class="panel-body">               
+                                <p>Learned about floating and designing fluid webpages.</p>
+                                <p>Currently working on assignment 3.</p> 
+                                <p>Made the Nav bar both still has some bugs.</p> 
+                                <p>Added cool background and all pages have been added.</p> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="container" id="footer">
+            <p>
+                <span class="glyphicon glyphicon-king"></span>                 
+                <span class="glyphicon glyphicon-queen"></span>               
+                <span class="glyphicon glyphicon-bishop"></span>               
+                <span class="glyphicon glyphicon-knight"></span>
+                <span class="glyphicon glyphicon-pawn"></span>
+                <span class="glyphicon glyphicon-copyright-mark"></span>
+                Future Company
+                <span class="glyphicon glyphicon-copyright-mark"></span>
+                <span class="glyphicon glyphicon-pawn"></span>
+                <span class="glyphicon glyphicon-knight"></span>
+                <span class="glyphicon glyphicon-bishop"></span>
+                <span class="glyphicon glyphicon-queen"></span>
+                <span class="glyphicon glyphicon-king"></span>
+            </p>
+        </div>
+
+
+    </body>
+</html>
+
+
+
+
+
+<!--
+                           <div id="box">
+                              <p> Monday May 25,2015</p>
+                              <hr>
+                              <p>Learned about floating and designing fluid webpages.</p>
+                              <p>Currently working on assignment 3.</p> 
+                              <p>Made the Nav bar both still has some bugs.</p> 
+                              <p>Added cool background and all pages have been added.</p> 
+                           </div>
+                           <div id="box2">
+                              <p> Monday May 26,2015</p>
+                              <hr>
+                              <p>Added title header for each pages.</p>
+                              <p>Change color scheme to make it 20% cooler.</p> 
+                              <p>Still keep getting the white box in the drop down menu.</p> 
+                           </div>
+                           <div id="box">
+                              <p> Monday May 27,2015</p>
+                              <hr>
+                              <p>Finally got rid of the white box curse you "z index -1"</p>
+                           </div>
+                           <div id="box2">
+                              <p> Monday May 29,2015</p>
+                              <hr>
+                                
+                           </div>
+                           <div id="box">
+                              <p> Monday August 24,2015</p>
+                              <hr>
+                              <p>Hello to bootstrap ladies and gentlemen"</p>
+                              <p>What I have have learned is that bootstrap is a pre made css for the most 
+                                 part and you just have to name your html based on what you want it to be</p>
+               
+                           </div>
+                        </div>-->

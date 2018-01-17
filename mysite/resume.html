@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Resume</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" title="Style1" href="css/Style1.css">
+        <link rel="alternate stylesheet" type="text/css" title="Style2" href="css/Style2.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+        <link rel="icon" type="image/png" href="http://104.167.98.73/favicon.png" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/login.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- style switcher script-->
+        <script type="text/javascript" src="js/styleswitcher.js"></script> 
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <button id="Dark" type="button" class="navbar-toggle mob" onclick="chooseStyle('Style2', 60);
+                            return false;" name="theme" value="D" data-target="#Dark">
+                        L
+                    </button>
+                    <button id="Light" type="button" class="navbar-toggle mob"  onclick="chooseStyle('Style1', 60);
+                            return false;" name="theme" value="L" data-target="#Light">
+                        D
+                    </button>
+                    <a class="navbar-brand" href="#"> ^_^ </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="assignment 1.html">Assignment 1</a></li>
+                        <li><a href="assignment 2.html">Assignment 2</a></li>
+                        <li><a href="Assignment 3">Assignment 3</a></li>
+                        <li><a href="Assignment 3/slotmachine">Assignment 4</a></li> 
+                        <li><a href="tims">Assignment 5</a></li> 
+                        <li><a href="#">Assignment 6</a></li> 
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Assignments
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="assignment 1.html">Assignment 1</a></li>
+                                <li><a href="assignment 2.html">Assignment 2</a></li>
+                                <li><a href="Assignment 3">Assignment 3</a></li>
+                                <li><a href="Assignment 3/slotmachine">Assignment 4</a></li> 
+                                <li><a href="tims">Assignment 5</a></li> 
+                                <li><a href="#">Assignment 6</a></li> 
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Web Links
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.sheridancollege.ca/">Sheridan Home Page</a></li>
+                                <li><a href="http://mobile.sheridanc.on.ca/~scottsam/info16206_s15/">Class Plan</a></li>        
+                            </ul>
+                        </li>
+                        <li><a href="pictures.html">Pictures</a></li> 
+                        <li><a href="journal.html">Journal</a></li> 
+                        <li><a href="about.html">About</a></li> 
+                        <li class="active"><a href="resume.html">Resume</a></li> 
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right" >
+
+                        <li><input type="submit" onclick="chooseStyle('Style1', 60);
+                                return false;"   name="theme" value="D" id="Dark" class="nonmob"></li>
+                        <li><input type="submit" onclick="chooseStyle('Style2', 60);
+                                return false;" name="theme" value="L" id="Light" class="nonmob"></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a  href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                <div class="modal-dialog">
+                                    <div class="loginmodal-container">
+                                        <h1>Login to Your Account</h1><br>
+                                        <form>
+                                            <input type="text" name="user" placeholder="Username">
+                                            <input type="password" name="pass" placeholder="Password">
+                                            <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                                        </form>
+
+                                        <div class="login-help">
+                                            <a href="#">Register</a> - <a href="#">Forgot Password</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="wrap">
+            <div id="main">
+                <div class="content">
+                    My Resume
+                </div>
+                <hr>
+
+                <!--<embed id="resume" src="Mena_Shafik_2016.pdf" width='650' height='450' type='application/pdf'>-->
+
+                <div id="resumeholder">
+                    <object id="resume" data="Mena_Shafik_2016.pdf" type="application/pdf" width='650' height='750'>
+                        alt : <a href="Mena_Shafik_2016.pdf">Mena Shafik 2016.pdf</a>
+                    </object>
+                </div>
+
+            </div>
+            <div class="container" id="footer">
+                <p>
+                    <span class="glyphicon glyphicon-king"></span>                 
+                    <span class="glyphicon glyphicon-queen"></span>               
+                    <span class="glyphicon glyphicon-bishop"></span>               
+                    <span class="glyphicon glyphicon-knight"></span>
+                    <span class="glyphicon glyphicon-pawn"></span>            
+                    <span class="glyphicon glyphicon-copyright-mark"></span>
+                    Future Company
+                    <span class="glyphicon glyphicon-copyright-mark"></span>
+                    <span class="glyphicon glyphicon-pawn"></span>
+                    <span class="glyphicon glyphicon-knight"></span>
+                    <span class="glyphicon glyphicon-bishop"></span>
+                    <span class="glyphicon glyphicon-queen"></span>
+                    <span class="glyphicon glyphicon-king"></span>
+                </p>
+            </div>
+    </body>
+</html>
