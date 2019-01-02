@@ -99,7 +99,8 @@
           font-weight: bold;
           color: black;
       }
-      
+      @media only screen and (min-width: 1081px)
+      {
       .bg-text {
           background-color: rgb(0,0,0); /* Fallback color */
           background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -121,35 +122,12 @@
           
       }
       .short-text{display: none;}
-      /*@media only screen and (min-width: 601px)
-          .bg-text {
-              background-color: rgb(0,0,0); /* Fallback color /
-              background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through /
-              color: white;
-              border: 3px solid #f1f1f1;
-              z-index: 2;
-              margin-top: 150px;
-              margin-bottom: 150px;
-              transform: rotate(45deg);
-              transform-origin: center center; 
-              height: 400px;
-              width: 400px;
-              margin: auto;
-              margin-bottom: 354px;
-              margin-top: -600px;
-              position: relative;
-          }
-      @media only screen and (min-width: 601px)
-          .intro{
-              z-index: 3;
-              position: relative;
-              font-size: 100%
-              
-      }*/
+
       .head{
           margin-top: 400px;
       }
-      @media only screen and (min-width: 1080px)
+      }
+      @media only screen and (max-width: 1080px)
       {
           
           .bg-text {
